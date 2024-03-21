@@ -1,0 +1,58 @@
+/* organizar os espaçamentos */
+* {margin: 0; padding: 0;}
+
+/* seletor simples com a tag body */
+body{
+    background-color: rgb(255, 255, 255);
+    color: darkred;
+}
+/* seletor pelo atributo unico id */
+#Corpo {
+    /* definindo margem */
+    margin: 10%;
+    /* espaçamento interno */
+     padding: 10%;
+      background-color: rgb(255, 255, 255);
+      border-radius: 2px;
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+    /* seletor com pseudo classe : hover (quando passa o cursor) */
+
+    #Corpo:hover{
+        background-color: rgb(0, 0, 0);
+        cursor: grab; /*troca de cursor do mouse */
+        border-radius: 50px;
+        
+    }
+        /* quando o mouse estiver "apertado" */
+    #Corpo:active{
+        cursor: grabbing;
+
+    }
+
+
+ 
+.banner-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-image {
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+.content-below {
+    padding: 20px;
+    text-align: center;
+    background-color:white
+
+}
+
+#centralize {
+    text-align: justify;
+}
